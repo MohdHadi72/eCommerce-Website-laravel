@@ -96,12 +96,12 @@
                   <input  type="text" name="description" placeholder=" Entet Description" required>
                 </div>
                 <div>
-                  <label>Quantity :</label>
-                  <input  type="number" name="quantity"   placeholder=" Entet Quantity" required>
-                </div>
-                <div>
                   <label>Price :</label>
                   <input  type="number" name="price" placeholder="Entet Price"required>
+                </div>
+                <div>
+                  <label>Quantity :</label>
+                  <input  type="number" name="quantity"   placeholder=" Entet Quantity" required>
                 </div>
                 <div>
                   <label>Discount :</label>

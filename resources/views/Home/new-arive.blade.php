@@ -2,7 +2,7 @@
   <div class="container">
      <div class="heading_container heading_center">
         <h2>
-           Customer's Testimonial
+           Manager , About Us
         </h2>
      </div>
      <div id="carouselExample3Controls" class="carousel slide" data-ride="carousel">
@@ -12,16 +12,20 @@
                  <div class="img_container">
                     <div class="img-box">
                        <div class="img_box-inner">
-                          <img src="images/client.jpg" alt="">
+                          <img src="./productimage./face15.jpeg" alt="">
                        </div>
                     </div>
                  </div>
                  <div class="detail-box">
                     <h5>
-                       Anna Trevor
+                     {{-- @if (Auth::check())
+                     {{ Auth::user()->name }}
+                 @endif --}}
                     </h5>
                     <h6>
-                       Customer
+                     {{-- @if (Auth::check())
+                           {{ Auth::user()->email }}
+                         @endif --}}
                     </h6>
                     <p>
                        Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
@@ -34,16 +38,16 @@
                  <div class="img_container">
                     <div class="img-box">
                        <div class="img_box-inner">
-                          <img src="images/client.jpg" alt="">
+                        <img src="./productimage./face15.jpeg" alt="">
                        </div>
                     </div>
                  </div>
                  <div class="detail-box">
                     <h5>
-                       Anna Trevor
+                     {{Auth::user()->name}}
                     </h5>
                     <h6>
-                       Customer
+                       Email:  {{Auth::user()->email}}
                     </h6>
                     <p>
                        Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
@@ -56,16 +60,16 @@
                  <div class="img_container">
                     <div class="img-box">
                        <div class="img_box-inner">
-                          <img src="images/client.jpg" alt="">
+                        <img src="./productimage./face15.jpeg" alt="">
                        </div>
                     </div>
                  </div>
                  <div class="detail-box">
                     <h5>
-                       Anna Trevor
+                     {{Auth::user()->name}}
                     </h5>
                     <h6>
-                       Customer
+                       Email: {{Auth::user()->email}}
                     </h6>
                     <p>
                        Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.

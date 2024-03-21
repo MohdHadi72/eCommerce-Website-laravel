@@ -42,11 +42,11 @@ class AdminController extends Controller
         $product = new Product;
 
         $product->title = $req->title;
-        $product->description = $req->discount;
+        $product->description = $req->description;
         $product->price = $req->price;
         $product->quantity = $req->quantity;
         $product->discount = $req->discount;
-        $product->catagory = $req->category;
+        $product->catagory = $req->catagory;
         $image = $req->file('image');
 
         if ($image) {
