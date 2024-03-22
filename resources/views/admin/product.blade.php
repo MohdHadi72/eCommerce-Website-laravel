@@ -75,12 +75,13 @@
        
        <div class="main-panel">
         <div class="content-wrapper hello">
+
           @if (session()->has('productAdd'))
           <div class="alert alert-success">
            <button type="button" class="close" data-dismiss="alert"  aria-hidden="true">X</button>
                   {{session()->get('productAdd')}}
           </div>
-      @endif
+        @endif
         
             <div div class="center-dev mt-3">
                 <h1>Add Product</h1>

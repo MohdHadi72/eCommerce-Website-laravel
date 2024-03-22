@@ -92,11 +92,10 @@
            <button type="button" class="close" data-dismiss="alert"  aria-hidden="true">X</button>
                   {{session()->get('updatemessage') }}
           </div>
-      @endif
+         @endif
         
             <div div class="center-dev mt-3">
-                <h1>Edit Product </h1>
-
+                <h1>Edit Product </h1>    
                 <form action="{{url('update-product', $product->id)}}" method="POST" >
                    @csrf
                 <div >

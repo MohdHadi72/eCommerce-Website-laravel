@@ -18,14 +18,10 @@
                  </div>
                  <div class="detail-box">
                     <h5>
-                     {{-- @if (Auth::check())
-                     {{ Auth::user()->name }}
-                 @endif --}}
-                    </h5>
-                    <h6>
-                     {{-- @if (Auth::check())
-                           {{ Auth::user()->email }}
-                         @endif --}}
+                     Mohd Hadi
+                  </h5>
+                  <h6>
+                   mohdhadi440@gmail.com
                     </h6>
                     <p>
                        Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
@@ -44,10 +40,10 @@
                  </div>
                  <div class="detail-box">
                     <h5>
-                     {{Auth::user()->name}}
-                    </h5>
-                    <h6>
-                       Email:  {{Auth::user()->email}}
+                     Mohd Hadi
+                  </h5>
+                  <h6>
+                   mohdhadi440@gmail.com
                     </h6>
                     <p>
                        Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
@@ -66,10 +62,10 @@
                  </div>
                  <div class="detail-box">
                     <h5>
-                     {{Auth::user()->name}}
+                    Mohd Hadi
                     </h5>
                     <h6>
-                       Email: {{Auth::user()->email}}
+                     mohdhadi440@gmail.com
                     </h6>
                     <p>
                        Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.

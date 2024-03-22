@@ -27,4 +27,19 @@ class HomeController extends Controller
             return view('Home.userpage');
         }
     }
+
+    public function detaile($id)
+    {
+        $product = Product::find($id);
+        return view('Home.detailes', compact('product'));
+    }
+
+    public function addtocart($id)
+    {
+        if (Auth::id()) {
+            return redirect()->back();
+        } else {
+            return redirect('login');
+        }
+    }
 }

@@ -15,9 +15,9 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get('/', function () {
-    return view('auth/login');
-});
+// Route::get('/', function () {
+//     return view('auth/login');
+// });
 
 
 
@@ -57,3 +57,7 @@ Route::get('/delete-product/{id}', [AdminController::class, 'deleteproduct']);
 Route::get('/Edit-product/{id}', [AdminController::class, 'Editproduct']);
 
 Route::post('/update-product/{id}', [AdminController::class, 'updateproduct']);
+
+Route::get('/detaile/{id}', [HomeController::class, 'detaile']);
+
+Route::post('/addtocart/{id}', [HomeController::class, 'addtocart']);

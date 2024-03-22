@@ -1,6 +1,6 @@
 <section class="slider_section ">
   <div class="slider_bg_box">
-     <img src="/productimage/face15.jpeg" alt="" >
+     <img src="/images/slider-bg.jpg" alt="" >
   </div>
   <div id="customCarousel1" class="carousel slide" data-ride="carousel">
      <div class="carousel-inner">
